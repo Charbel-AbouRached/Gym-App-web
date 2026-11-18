@@ -1,0 +1,46 @@
+{
+    "id": "gym-app",
+    "name": "AFTERLIFT",
+    "short_name": "AFTERLIFT",
+    "description": "AFTERLIFT — your gym in your pocket: member card with QR check-in, class booking, coach chat and workout tracking.",
+    "lang": "en",
+    "dir": "auto",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "display_override": ["standalone", "minimal-ui"],
+    "orientation": "portrait",
+    "background_color": "#0b0e11",
+    "theme_color": "#0b0e11",
+    "categories": ["health", "fitness", "lifestyle"],
+    "prefer_related_applications": false,
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
